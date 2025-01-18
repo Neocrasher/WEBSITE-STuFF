@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #007bff !important; /* Bootstrap primary color */
+}
+
+.nav-link {
+    color: #555 !important; /* Custom link color */
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #007bff !important; /* Change color on hover */
+}
+
+.nav-item.active .nav-link {
+    color: #007bff !important; /* Active link color */
+    font-weight: bold;
+}
+footer {
+    margin-top: 20px;
+}
+
+footer h5 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
